@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer p {
+  color: #ccc;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #a6a6a6;
+  padding-top: 0px;
+  margin-top: 100px;
+  padding-bottom: 39px;
+  height: 275px;
+}
+
+
+
+.brands-footer {
+  position: relative;
+  padding: 0 15px;
+}
+
+.footer-links {
+  color: gray;
+}
+
+.footer-links:hover {
+  color: black
+}
